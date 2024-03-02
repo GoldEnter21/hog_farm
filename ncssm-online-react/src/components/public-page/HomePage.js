@@ -250,65 +250,11 @@ class HomePage extends React.Component {
     return (
       <div className="HomePage">
         <div className="container">
-          {/* <div className="row"> */}
-            {/* <div className="col-md-2 mt-3">
-              <h4>Day 1: BloodBath </h4>
-            </div> */}
-            {/* <div className="col-md-8 text-center"> */}
               <div className="title">
-                <p> HOG FARMS</p>
+                <p style={{fontSize:"3.3rem"}}> Some major eye catching statistic about hog farms here</p>
                 <p>  OF GLORY </p>
               </div>
-            {/* </div> */}
-            {/* <div className="col-md-2">
-              <Link
-                to="/register-user"
-                className="btn btn-outline-warning float-right mt-3"
-              >
-                + Register or Sign In Here
-              </Link>
-            </div> 
-          </div> */}
-          {/* <div className="row">
-            <div className="col-md-11">{this.timeUntilStart()}</div>
-          </div> */}
           <br/>
-          <div className="title2">
-            <p>Environmental Damage ensues. . .</p>
-          </div>
-          {/* <br/>
-          <div className="bigtimer">
-          <TimeComponent/>
-          </div>
-          <div  className="times">
-            <div className="row">
-              <div style={{width: "10%"}} className="column"></div>
-              <div style={{width: "20%"}} className="column">
-                <p>DAYS</p>
-              </div>
-              <div style={{width: "20%"}} className="column">
-                <p>HOURS</p>
-              </div>
-              <div style={{width: "20%"}} className="column">
-                <p>MINUTES</p>
-              </div>
-              <div style={{width: "20%"}} className="column">
-                <p>SECONDS</p>
-              </div>
-            </div>
-          </div>
-          <br/>
-          <div className="title2">
-            <p style={{color: "#4472CA"}}>Registration is now CLOSED!</p>
-          </div>
-          <div style={{borderBottom: "solid #D7D9D7 0.01rem"}} className="players">
-            <div className="row">
-              <div className="col"> 
-                <p>The game will begin with <b>{this.props.userList.length === 0 ? <span style={{color: "#4472CA"}}>{"<Loading. . .>"}</span>: <span style={{color: this.getVerColor()}}>{this.getLatestVerNum()}</span>}</b> players!</p>  
-              </div>
-            </div>
-          </div>
-          <br/> */}
           <div className="live2">
             <p><i>Check back here for live updates and more!</i></p>
           </div>
@@ -372,17 +318,6 @@ class HomePage extends React.Component {
           <br />
         </div>
         <br />
-
-        {/* <div className="container">{this.showEliminationMap()}</div>
-        <br />
-        <div className="container">
-          <div className="row">
-            <div className="list">
-              {this.showElimsForLocation()}
-              <br />
-            </div>
-          </div>
-        </div> */}
         <br />
       </div>
     );
