@@ -256,7 +256,7 @@ class HomePage extends React.Component {
             </div> */}
             {/* <div className="col-md-8 text-center"> */}
               <div className="title">
-                <p> NCSSM: SPOONS</p>
+                <p> HOG FARMS</p>
                 <p>  OF GLORY </p>
               </div>
             {/* </div> */}
@@ -274,7 +274,7 @@ class HomePage extends React.Component {
           </div> */}
           <br/>
           <div className="title2">
-            <p>A bloodbath ensues. . .</p>
+            <p>Environmental Damage ensues. . .</p>
           </div>
           {/* <br/>
           <div className="bigtimer">
