@@ -1,0 +1,3 @@
+{
+    "mongoURI" : "mongodb+srv://joy:tunica@cluster0.ioonmyn.mongodb.net/?retryWrites=true&w=majority"
+}

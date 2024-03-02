@@ -1,0 +1,37 @@
+#customers {
+    font-family: 'HUN', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#customers td, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #1d1d1d;}
+#customers tr:nth-child(odd){background-color: #121212;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #4472CA;
+color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    #customers{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #customers{
+        font-size: 0.75rem;
+    }
+}

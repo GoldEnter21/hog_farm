@@ -1,0 +1,185 @@
+.parent {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.ncssm-map {
+    position: relative;
+}
+
+
+.hunt-west {
+    /* Done */
+    position: absolute;
+    right: 40em;
+    top: 22em; 
+}
+
+.hunt-east {
+    /* Done */
+    position: absolute;
+    right: 38em;
+    top: 12em;
+}
+
+.hill {
+    /* Done */
+    position: absolute;
+    right: 33em;
+    top: 20em;
+}
+
+.hill-street {
+    /* Done */
+    position: absolute;
+    right: 26em;
+    top: 25em;
+}
+
+.royall {
+    /* Done */
+    position: absolute;
+    right: 32em;
+    top: 9em;
+}
+
+.watts {
+    /* Done */
+    position: absolute;
+    right: 21em;
+    top: 12em;
+}
+
+.art-studio {
+    /* Done */
+    position: absolute;
+    right: 17em;
+    top: 17em;
+}
+
+.bike-shed {
+    /* Done */
+    position: absolute;
+    right: 30em;
+    top: 24em;
+}
+
+.pec {
+    /* Done */
+    position: absolute;
+    right: 38em;
+    top: 37em;
+}
+
+.etc {
+    /* Done */
+    position: absolute;
+    right: 18em;
+    top: 39em;
+}
+
+.tennis-courts {
+    /* Done */
+    position: absolute;
+    right: 43em;
+    top: 41em;
+}
+
+.baseball-field {
+    /* Done */
+    position: absolute;
+    right: 59em;
+    top: 39em;
+}
+
+.soccer-field {
+    /* Done */
+    position: absolute;
+    right: 49em;
+    top: 15em;
+}
+
+.swings {
+    /* Done */
+    position: absolute;
+    right: 22em;
+    top: 22em;
+}
+
+.bryan {
+    /* Done */
+    position: absolute;
+    right: 12em;
+    top: 27em;
+}
+
+.bryan-classrooms {
+    /* Done */
+    position: absolute;
+    right: 19em;
+    top: 30em;
+}
+
+.beall {
+    /* Done */
+    position: absolute;
+    right: 12em;
+    top: 20em;
+}
+
+.reynolds {
+    /* Done */
+    position: absolute;
+    right: 12em;
+    top: 14em;
+}
+
+.parking-lot {
+    /* Done */
+    position: absolute;
+    right: 2em;
+    top: 17em;
+}
+
+.bryan-lobby {
+    /* Done */
+    position: absolute;
+    right: 11em;
+    top: 34em;
+}
+
+.woolworth {
+    /* Done */
+    position: absolute;
+    right: 17em;
+    top: 37em;
+}
+
+.bryan-etc-hallway {
+    /* Done */
+    position: absolute;
+    right: 21.5em;
+    top: 33em;
+}
+
+.reynolds-breezeway {
+    /* Done */
+    position: absolute;
+    right: 15em;
+    top: 22em;
+}
+
+.volleyball {
+    /* Done */
+    position: absolute;
+    right: 32em;
+    top: 17em;
+}
+
+.watts-circle {
+    /* Done */
+    position: absolute;
+    right: 22em;
+    top: 7em;
+}

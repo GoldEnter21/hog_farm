@@ -1,0 +1,28 @@
+.coming{
+    color: #4472CA;
+    font-family: HUN;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.438rem;
+    line-height: normal;
+    padding-top: 3.725rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .coming {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .coming {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .coming {
+        font-size: 1.75rem;
+    }
+}
