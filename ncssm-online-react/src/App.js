@@ -32,11 +32,11 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/myaccount' element={<MyAccount />} />
           <Route path='/credits' element={<Credits />} />
+          <Route path="/sus" element={<ShowUserList />} />
           <Route element={<Auth allowedRoles={["Ad"]} />} >
             <Route path='/edit-user/:id' element={<UpdateUserInfo />} />
             <Route path='/show-user/:id' element={<ShowUserDetails />} />
             <Route path='/create-user' element={<CreateUser />} />
-            <Route path="/admin-onlylol" element={<ShowUserList />} />
           </Route>
         </Routes>
       </div>

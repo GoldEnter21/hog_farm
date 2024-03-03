@@ -21,9 +21,9 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="/">Home</a></p>
-          <p><a href="/map2">About</a></p>
+          <p><a href="/about">About</a></p>
           <p><a href="/leaderboards">Your Area</a></p>
-          <p><a href="/about">Resources</a></p>
+          <p><a href="/map2">Resources</a></p>
           <p><a href="/credits">Credits_And_Acknowledgments</a></p>
         </div>
       </div>
@@ -46,9 +46,9 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
           <p><a href="/">Home</a></p>
-          <p><a href="/map2">About</a></p>
+          <p><a href="/about">About</a></p>
           <p><a href="/leaderboards">Your Area</a></p>
-          <p><a href="/about">Resources?</a></p>
+          <p><a href="/map2">Resources</a></p>
           <p><a href="/credits">Credits_And_Acknowledgments</a></p>
           </div>
           {user && <div className="gpt3__navbar-menu_container-links-sign">

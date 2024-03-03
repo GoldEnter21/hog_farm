@@ -249,77 +249,44 @@ class HomePage extends React.Component {
 
     return (
       <div className="HomePage">
+        <br/>
         <div className="container">
-              <div className="title">
-                <p style={{fontSize:"3.3rem"}}> Some major eye catching statistic about hog farms here</p>
-                <p>  OF GLORY </p>
-              </div>
-          <br/>
-          <div className="live2">
-            <p><i>Check back here for live updates and more!</i></p>
-          </div>
-          <div className="live">
-            <p>LIVE UPDATES</p>
-          </div>
-          <div className="row">
-            <div style={{width: "50%"}} className="column">
-              <div className="dayspassed">
-              <p>DAY TEST</p>
-              </div>
-              <div className="timepassed">
-              <p>LOL</p>
-              </div>
+            <div className="title" style={{backgroundColor: "#caebf2"}}>
+              <p style={{fontSize:"3.3rem"}}> Some major eye catching statistic about hog farms here</p>
+              <p>  OF GLORY </p>
             </div>
-            <div style={{width: "50%"}} className="column">
-              <div className="row">
-                <div style={{width: "15%"}} className="column">
-                </div>
-                <div style={{width: "22.5%"}} className="column">
-                  <div className="alive">
-                  <p>{this.props.userList.length > 0 ? alive : "?"}</p>
-                  </div>
-                </div>
-                <div style={{width: "62.5%"}} className="column">
-                  <div className="alivename">
-                  <p>PLAYERS ALIVE</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div style={{width: "15%"}} className="column">
-                </div>
-                <div style={{width: "22.5%"}} className="column">
-                  <div className="deadtoday">
-                  <p>{this.props.userList.length > 0 ? deadtoday : "?"}</p>
-                  </div>
-                </div>
-                <div style={{width: "62.5%"}} className="column">
-                  <div className="deadtodayname">
-                  <p>PLAYERS KILLED TODAY</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div style={{width: "15%"}} className="column">
-                </div>
-                <div style={{width: "22.5%"}} className="column">
-                  <div className="deadtotal">
-                  <p>{this.props.userList.length > 0 ? 289-alive : "?"}</p>
-                  </div>
-                </div>
-                <div style={{width: "62.5%"}} className="column">
-                  <div className="deadtotalname">
-                  <p>PLAYERS DEAD</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+        <br />
+        <div className="explainer">
+        <div className="row">
+          <div style={{width: "75%", fontSize:"2rem", color: "#656565"}} className="column">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
-          <br />
+          <div style={{width: "25%", border: "2px solid #ff3b3f"}} className="column">
+              <img src='spoonexample.png' display= "block" className="images"></img>
+          </div>
+        </div>
+        <a href="/about" class="btn btn-primary" style={{color:"black"}}>
+          Learn a fucking shitton more like you wont even realize how much you're about to learn until you click this button
+        </a>
         </div>
         <br />
-        <br />
-      </div>
+        <div className="explainer">
+        <div className="row">
+          <div style={{width: "75%", fontSize:"2rem", color: "#656565"}} className="column">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div style={{width: "25%", border: "2px solid #ff3b3f"}} className="column">
+              <img src='spoonexample.png' display= "block" className="images"></img>
+          </div>
+        </div>
+        <a href="/about" class="btn btn-primary" style={{color:"black"}}>
+          Learn a fucking shitton more like you wont even realize how much you're about to learn until you click this button
+        </a>
+        </div>
+        
+        </div>
+        </div>
     );
   }
 }

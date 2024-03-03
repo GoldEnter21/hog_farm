@@ -1,6 +1,6 @@
 .explainer{
-    color: #4472CA;
-    font-family: HUN;
+    color: #656565;
+    font-family: Helvetica;
     font-size: 4rem;
     font-style: normal;
     font-weight: 400;
@@ -8,11 +8,12 @@
     padding-top: 3.725rem;
 }
 
+
 .titlea{
-    -webkit-text-stroke: 2px #4472CA;
+    -webkit-text-stroke: 2px #656565;
     color: #D7D9D7;
     text-align: center;
-    font-family: HUN;
+    font-family: Helvetica;
     font-size: 4.5rem;
     font-style: normal;
     font-weight: 400;
@@ -20,9 +21,10 @@
     padding-top: 3.725rem;
 }
 
+
 .title2a{
-    color: #D7D9D7;
-    font-family: HUN;
+    color: #656565;
+    font-family: Helvetica;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 50;
@@ -31,29 +33,33 @@
     font-style: italic;
 }
 
+
 .titleaa{
-    -webkit-text-stroke: 2px #4472CA;
-    color: #D7D9D7;
+    color: #A9A9A9;
     text-align: center;
-    font-family: HUN;
+    font-family: Helvetica;
     font-size: 5.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-top: 3.725rem;
-    text-decoration: white underline;
+    text-decoration: #CAEBF2 underline
+
 
 }
+
 
 .images{
     width: 20rem;
 }
+
 
 @media screen and (max-width: 1150px) {
     .images{
         width: 13rem;
     }
 }
+
 
 @media screen and (max-width: 1000px) {
     .explainer{
@@ -69,6 +75,7 @@
         font-size: 4.2rem;
     }
 }
+
 
 @media screen and (max-width: 800px) {
     .explainer{
@@ -88,6 +95,7 @@
     }
 }
 
+
 @media screen and (max-width: 650px) {
     .explainer{
         font-size: 1.6875rem;
@@ -100,6 +108,7 @@
     }
 }
 
+
 @media screen and (max-width: 650px) {
     .explainer{
         font-size: 1.2rem;
@@ -108,6 +117,7 @@
         width: 5rem;
     }
 }
+
 
 @media screen and (max-width: 450px) {
     .explainer{
@@ -118,6 +128,7 @@
         -webkit-text-stroke: 1px #4472CA;
     }
 }
+
 
 @media screen and (max-width: 400px) {
     .explainer{
@@ -132,6 +143,7 @@
     }
 }
 
+
 @media screen and (max-width: 350px) {
     .explainer{
         font-size: 0.65rem;
@@ -145,6 +157,7 @@
     }
 }
 
+
 @media screen and (max-width: 315px) {
     .titleaa{
         font-size: 1.77rem;
@@ -154,3 +167,4 @@
         font-size: 0.54375rem;
     }
 }
+

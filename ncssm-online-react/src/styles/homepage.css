@@ -8,7 +8,7 @@
     line-height: normal;
     padding-top: 3.725rem;
     padding-bottom: 1.125rem;
-    border-bottom: solid #D7D9D7 .125rem;
+    border: solid #D7D9D7 .125rem;
 }
 
 .players{
@@ -457,4 +457,9 @@
     .players{
         font-size: 0.5em;
     }
+}
+
+.btn-primary{
+    background-color: #ff3b3f !important;
+    border-color: #ff3b3f !important;
 }
